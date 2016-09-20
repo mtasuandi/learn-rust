@@ -1,2 +1,2 @@
-# learn-rust
+# Learn Rust
 Learn Rust Programming Language.
