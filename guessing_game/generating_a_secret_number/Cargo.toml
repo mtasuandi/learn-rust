@@ -1,0 +1,9 @@
+[package]
+
+name = "generating_a_secret_number"
+version = "0.0.1"
+authors = [ "Teguh Suandi <mteguhasuandi@gmail.com>" ]
+
+[dependencies]
+
+rand = "*"
