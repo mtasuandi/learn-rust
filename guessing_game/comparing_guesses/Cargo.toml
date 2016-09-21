@@ -1,0 +1,8 @@
+[package]
+name = "comparing_guesses"
+version = "0.0.1"
+authors = ["Teguh Suandi <mteguhasuandi@gmail.com>"]
+
+[dependencies]
+
+rand = "*"
