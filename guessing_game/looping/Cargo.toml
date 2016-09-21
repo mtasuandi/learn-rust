@@ -1,0 +1,9 @@
+[package]
+
+name = "looping"
+version = "0.0.1"
+authors = [ "Teguh Suandi <mteguhasuandi@gmail.com>" ]
+
+[dependencies]
+
+rand = "*"
