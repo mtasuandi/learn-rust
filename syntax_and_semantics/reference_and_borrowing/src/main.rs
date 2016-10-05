@@ -63,5 +63,23 @@ fn main() {
     // Second, you may have one or the other of these two kinds of borrows, but not both at the same time:
     // one or more references (&T) to a resource
     // exactly one mutable reference (&mut T)
+
+    // Example
+    let mut _o = 9;
+    let _e = &mut _o;
+
+    *_e += 1;
+
+    println!("{}", _e); // return 10;
+    println!("{}", _o); // return `cannot borrow _o as immutable because its also borrowed as mutable`
+    println!("{}", &mut _o); // return `cannot borrow _o as mutable more than once at a time`
+    let mut _t = 9; {
+        let _y = &mut _t;
+        *_y += 2;
+    }
+
+    println!("{}", _t); // return 11
+
+    // Iterator invalidation
     
 }
